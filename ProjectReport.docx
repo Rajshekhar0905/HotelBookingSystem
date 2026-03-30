@@ -1,0 +1,74 @@
+# Hotel Booking System Project Report
+
+## Cover Page
+
+**Hotel Booking System**  
+**Project Report**  
+**Prepared By: Rajshekhar0905**  
+**Date: 2026-03-30**  
+
+---
+
+## Introduction
+This document outlines the comprehensive project report for the Hotel Booking System. It discusses the system's objectives, functionalities, and significance in modern hospitality management.
+
+## Problem Statement
+The hotel industry faces challenges such as managing reservations effectively, handling customer requests, and ensuring timely service. The Hotel Booking System aims to address these issues by providing an automated solution to manage bookings and customer relationships.
+
+## Functional Requirements
+- User registration and login
+- Room availability search
+- Room booking and cancellation
+- Payment processing
+- User profile management
+- Admin dashboard for management
+
+## Non-Functional Requirements
+- Performance: The system should handle up to 1000 simultaneous users without slowdown.
+- Usability: The interface must be intuitive and user-friendly.
+- Security: Personal data must be encrypted and securely stored.
+
+## System Architecture
+The system follows a three-tier architecture:
+1. **Presentation Layer**: User interface for customers and administrators.
+2. **Business Logic Layer**: Handles the core functionality and processes.
+3. **Data Layer**: Database management and storage of user data, bookings, etc.
+
+## Use Cases
+1. **User Registration**: Users can create an account by providing personal details.
+2. **Room Search and Booking**: Users can search for available rooms and make bookings based on preferences.
+3. **Admin Management**: Admins can view and manage bookings, user accounts, and system settings.
+
+## Implementation Details
+The Hotel Booking System is implemented using:
+- **Backend**: Node.js with Express for server management.
+- **Frontend**: React.js for building dynamic user interfaces.
+- **Database**: MongoDB for storing application data.
+
+## Testing Approach
+The system undergoes various testing phases, including:
+- Unit Testing: Testing individual components.
+- Integration Testing: Testing combined parts of the application to ensure they work together.
+- User Acceptance Testing: Final testing with end-users to verify functionality and usability.
+
+## Challenges Faced
+- Integrating payment gateways securely posed significant challenges.
+- Ensuring data consistency across multiple transactions in a high-load environment.
+- Addressing user feedback for improving the UI/UX seemed time-consuming.
+
+## Learning and Key Takeaways
+- Importance of user feedback in developing user-centric applications.
+- The necessity of prioritizing security in applications dealing with sensitive data.
+- Valuable project management skills were developed during the project lifecycle.
+
+## Future Requirements
+Future iterations could include:
+- Mobile application support for on-the-go bookings.
+- Enhanced analytics dashboard for better decision-making for hotel management.
+
+## References
+1. [Hotel Management Systems Overview](https://www.example.com)
+2. [Node.js Documentation](https://nodejs.org)
+3. [React.js Documentation](https://reactjs.org)  
+
+---
