@@ -2,7 +2,7 @@
 public class Booking {
 
     private int bookingId;
-    private Guest guest;
+    private Guest guest; 
     private Room room;
     private int nights;
     private double totalCost;
